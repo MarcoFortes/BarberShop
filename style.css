@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f1efefd2;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0E998B;
+    min-height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+
+main{
+    min-height: 100vh;
+    background-color: #f1efefd2;
+}
+
+.logo h1{
+    font-family: 'Lobster';
+    font-size: 2.1em;
+    cursor: pointer;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+}
+
+.links ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.links ul li:hover{
+    color: #fafafa;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.medias{
+    display: flex;
+    align-items: center;
+}
+
+.medias img{
+    padding: 8px;
+    cursor: pointer;
+    width: 32px;
+}
+
+/* CONTENT - SECTION 1 */
+
+.section-1, .section-2{
+    margin: 25vh auto;
+    width: 65%;
+    padding: 30px;    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    font-family: 'lobster';
+    font-size: 3em;
+    text-align: center;
+    color: rgba(15, 14, 14, 0.884);
+}
+
+.text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2em;
+    font-weight: lighter;
+    letter-spacing: 1.5;
+    text-align: center;
+    margin: 1.2em 1em 0;
+    color: rgba(15, 14, 14, 0.884);
+}
+
+.ilustration{
+    text-align: center;
+}
+
+.ilustration img{
+    min-width: 300px;
+    max-width: 650px;
+    width: 60%;
+    margin-top: 1.5em;
+}
+
+
+/* CONTENT - SECTION 2 */
+
+.animation marquee{
+   background-color: #0E998B;
+   color: #FFFF; 
+   width: 90%;
+   display: block;
+   margin: 0 auto;
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 2.2em;
+   font-weight: lighter;
+   padding: 3px 0;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+   
+}
+
+.section-2{
+    width: 100%;
+    background-color: #0E998B;
+    padding: 50px;
+    
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.box{
+    width: 400px;
+    height: 270px;
+    background-color: rgba(223, 213, 213, 0.685);
+    padding: 10px;
+    margin: 30px 0;
+    box-shadow: 1px 1px 5px 0px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box:hover{
+    transform: translateY(8px);
+    transition: 0.5s;
+}
+
+.icon .img-1, .img-2, .img-3{
+    text-align: center;
+}
+
+.icon h3, .description p{
+    text-align: center;
+    margin-top: 1em;
+ }
+
+.icon h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: rgba(15, 14, 14, 0.884);
+}
+
+.description p{
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(223, 213, 213, 0.685);
+    width: 100%;
+    padding: 40px 40px 0 40px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .items{
+    margin-top: 20px;
+}
+
+.contact, .account, .opening-hours{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact h2, .account h2, .opening-hours h2{
+    font-family: sans-serif;
+    font-size: 1.6em;
+    color: rgba(15, 14, 14, 0.884);
+    text-transform: uppercase;
+}
+
+.contact h4, .account p, .opening-hours p{
+    margin-bottom: 8px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact h4:hover, .account p:hover, .opening-hours p:hover{
+    text-decoration: underline #0E998B;
+    cursor: pointer;
+
+}
+
+.copyright{
+    text-align: center;
+    background-color: #0E998B;
+    color: #fafafa;
+    padding: 8px;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+
+i{
+    color: #0e998b;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+
